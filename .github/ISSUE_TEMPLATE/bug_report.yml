@@ -1,0 +1,31 @@
+name: Bug report
+description: Something in a mod doesn't work as it should
+labels: [bug]
+body:
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Mod
+      options: [project-search]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Steps to reproduce, what you expected, and what you saw instead. Screenshots help.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: OS, Herdr version, `rg --version`, and whether the space is on another machine
+    validations:
+      required: true
+  - type: textarea
+    id: errors
+    attributes:
+      label: Error files
+      description: The contents of any `*.error` file in the mod's folder (`~/.config/herdr-app/mods/<mod>/`)
+      render: text

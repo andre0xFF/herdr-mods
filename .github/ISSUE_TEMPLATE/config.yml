@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Herdr itself
+    url: https://github.com/herdrdev/herdr-app
+    about: Problems with the Herdr app (not these mods) belong in Herdr's own repo.

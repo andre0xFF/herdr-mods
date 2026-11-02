@@ -42,3 +42,12 @@ Each mod is a folder in the format [herdr.dev/mods](https://herdr.dev/mods/) exp
 ├── keys.json        keys it expects, merged into yours
 └── mods/<mod>/      the mod itself
 ```
+
+## Contributing
+
+Contributions are welcome: bug reports, fixes, improvements, and new mods. See
+[CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+[MIT](LICENSE)
